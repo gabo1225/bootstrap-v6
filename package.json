@@ -1,8 +1,16 @@
 {
   "dependencies": {
-    "bootstrap": "^6.0.0-alpha.1"
+    "@floating-ui/dom": "^1.8.0",
+    "bootstrap": "^6.0.0-alpha.1",
+    "vanilla-calendar-pro": "^3.4.0"
   },
   "devDependencies": {
+    "sass": "^1.107.1",
     "vite": "^8.3.5"
-  }
+  },
+  "scripts": {
+  "dev": "vite",
+  "build": "vite build"
+}
+
 }
